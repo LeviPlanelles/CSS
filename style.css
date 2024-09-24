@@ -18,35 +18,3 @@
     font-family: "Courier New", Courier, monospace;
 }
 
-.caja {
-    height: 300px;
-    width: 600px;
-    border: 20px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    position: relative;
-}
-
-.caja div {
-    height: 200px;
-    width: 500px;
-    border: 20px;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    position: relative;
-
-}
-
-.caja div div {
-    height: 100px;
-    width: 400px;
-    background-color: yellow;
-    display: flex;
-    position: relative;
-
-
-}
