@@ -19,12 +19,16 @@
     .negro {
         color: black;
     }
+    img {
+        width: 550px;
+        height: auto;
+    }
     </style>
-   
+       
 </head>
 <body>
     <ol>
-        <li><h3>¿Qué es CSS y para qué sirve?</h3></li>
+        <h3><li>¿Qué es CSS y para qué sirve?</li></h3>
         <p class="negro"><strong>¿Qué es?</strong><br></p>
         <p>
         CSS es un lenguaje utilizado hacer que la estructura HTML sea más bonita. Su función principal es definir cómo los elementos HTML deben ser visualizados en la página web.
@@ -34,13 +38,31 @@
         CSS básicamente sirve para hacer las interfaces del cliente web mucho más atractivas visualmente, también permite la adaptabilidad del diseño para dispositivos con diferente tamaño de pantalla.
         </p>
         <br>
-        <li><h3>Formas de aplicar CSS en HTML</h3></li>
+        <h3><li>Formas de aplicar CSS en HTML</li></h3>
             <ol>
-               <li><p class="negro"><strong>CSS en línea (inline)</strong></p></li> 
-               <li><p class="negro"><strong>CSS en el encabezado (internal)</strong></p></li> 
-               <li><p class="negro"><strong>CSS externo</strong></p></li>
+               <li><p class="negro"><strong>CSS en línea (inline)</strong><br></p></li>
+               <p>Consiste en aplicar estilos directamente a un elemento HTML a través del atributo "style"</p>
+               <p><img src="inline.png" alt="Imagen con ejemplo de CSS en línea"></p> 
+               <li><p class="negro"><strong>CSS en el encabezado (internal)</strong><br></p></li> 
+               <p>Los estilos se colocan en una etiqueta "style" dentro de la sección "head" de un documento HTML</p>
+               <p><img src="internal.png" alt="Imagen con ejemplo de CSS en el encabezado"></p>
+               <li><p class="negro"><strong>CSS externo</strong><br></p></li>
+               <p>Implica crear un archivo separado con extensión .css que contiene las reglas de estilo. Luego, se enlaza este archivo a través de la etiqueta "link" en la cabecera del documento HTML.</p>
+               <p><img src="external.png" alt="Imagen con ejemplo de CSS externo"></p>
             </ol>
-        <li><h3>Recursos de aprendizaje</h3></li>
+        <br>    
+        <h3><li>Recursos de aprendizaje</li></h3>
+        <ol>
+            <li><p class="negro"><strong>MDN Web Docs (Mozilla Developer Network)</strong><br></p></li>
+            <p>MDN es una referencia confiable y exhaustiva sobre lenguajes web como CSS, con documentación clara, ejemplos interactivos y tutoriales para aprender desde los conceptos básicos hasta temas avanzados. Es un excelente recurso para aprender CSS de manera detallada y precisa.</p>
+           
+            <li><p class="negro"><strong>CSS-Tricks</strong><br></p></li> 
+            <p>CSS-Tricks es un sitio popular que ofrece una mezcla de artículos, guías y tutoriales sobre CSS y temas relacionados con el desarrollo web. Su contenido es muy práctico, cubriendo tanto fundamentos como técnicas avanzadas de diseño con CSS, lo que lo convierte en una fuente útil tanto para principiantes como para desarrolladores con experiencia.</p>
+           
+            <li><p class="negro"><strong>freeCodeCamp</strong><br></p></li>
+            <p>freeCodeCamp es una plataforma gratuita que ofrece ejercicios interactivos para aprender a programar. Su curso de "Responsive Web Design" incluye secciones dedicadas a aprender CSS desde cero, con ejercicios prácticos que permiten a los usuarios aprender de manera activa mientras desarrollan proyectos.</p>
+            
+         </ol>
     </ol>
 </body>
 </html>
