@@ -1,0 +1,35 @@
+.caja {
+    height: 300px;
+    width: 600px;
+    border: 20px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    margin: auto;
+    
+}
+.caja2 {
+    height: 200px;
+    width: 500px;
+    border: 30px solid rgb(1, 1, 226);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    padding: 1px;
+}
+
+.caja3 {
+    height: 100px;
+    width: 400px;
+    border: 20px solid orange;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    
+}
+
