@@ -19,6 +19,7 @@ body {
 
 .nombre {
   background-color: aliceblue;
+  margin-top: -5px;
   border-radius: 15px;
   margin-left: 10px;
   margin-right: 10px;
