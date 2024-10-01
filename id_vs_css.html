@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="id_vs_css.css">
+    <title>ID vs CSS</title>
+</head>
+<body>
+    <div class="div">
+        <ol>
+            <h2><li>Uso:</li></h2>
+            <ul>
+                <li><strong>Clase:</strong> Se utiliza cuando varios elementos necesitan compartir el mismo estilo, ya que se puede aplicar a múltiples elementos en una página. Es útil para mantener coherencia en el diseño de elementos similares, como botones o secciones destacadas.</li>
+                <li><strong>Identificador:</strong> Es único y se usa para estilizar un solo elemento específico en la página, como una cabecera o un formulario único. Solo debe haber un elemento con un <code>id</code> particular en una página.</li>
+            </ul>
+    
+            <h2><li>Especificidad:</li></h2>
+            <ul>
+                <li><p>Los <code>id</code> tienen mayor prioridad que las <code>class</code> al aplicar estilos. Si un mismo elemento tiene ambos, los estilos del <code>id</code> prevalecen sobre los de la clase.</p></li>
+            </ul>
+    
+            <h2><li>Sintaxis:</li></h2>
+            <ul>
+                <li>En HTML, los <code>id</code> se asignan con el atributo <code>id="nombre-id"</code> y en CSS se referencian con <code>#nombre-id</code>.</li>
+                <li>Las clases se asignan con <code>class="nombre-clase"</code> y se referencian en CSS con <code>.nombre-clase</code>.</li>
+            </ul>
+        </ol>
+    </div>
+    <br>
+    
+    <div class="div1">
+        <h1 id="titulo" align="center">Uso de Clases e Identificadores en CSS</h1>
+        <p class="texto" align="center">Esto es un parrafo</p>
+        <p class="texto" align="center">Esto es un avión</p>
+        <p class="texto" align="center">Esto es una fregona</p>
+        <div class="centro">
+        <button class="boton" type="button" id="botonEnviar" >Enviar</button>
+        </div> 
+    </div>
+     
+    
+</body>
+</html>
